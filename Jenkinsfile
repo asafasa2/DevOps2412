@@ -1,3 +1,4 @@
+properties([[$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
 node {
     stage("clone") {
         git branch: 'master', url: 'https://github.com/asafasa2/DevOps2412.git'
