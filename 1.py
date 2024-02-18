@@ -1,5 +1,6 @@
 print("Hello ,David!")
 c = 0
+d= 22
 a = "aviel"
 b = "buskila"
 age = 34
